@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #efe9e5;
+   
+}
+
+.portada {
+    width: 100%;
+    height: 80%;
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/01/13180738/La-agenda-de-festivales-emp.jpg);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.portada h1 {
+    color: white;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px;
+    
+}
+.opacidad-portada {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.lista-navegacion {
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.lista-navegacion li {
+    margin: 10px;
+    color: white;
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+.lista-navegacion li:hover {
+    color: steelblue;
+    cursor: pointer;
+}
+
+.lista-navegacion li a {
+    text-decoration:none;
+    color: inherit;
+
+}
+
+
+
+.parrafo-nosotros {
+    text-align: justify; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    
+}
+
+
+.card-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 1 px solid black;
+    box-shadow: 0px  2px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    border-radius: 2%;
+    background-color: white;
+    
+
+}
+
+
+.seccion-nosotros {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}    
+
+.titulo-seccion {
+    font-size: 2em;
+}
+
+.bandas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.card-bandas {
+    box-shadow: 0px  2px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+     width: 25%;
+     border-radius: 20px;
+     background-color: white;
+     
+
+}
+
+.card-bandas img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-bandas h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.card-bandas p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 30px;
+    line-height: 20px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-contacto {
+    box-shadow: 0px  2px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 30px;
+    width: 40%;
+    background-color: white;
+
+}
+.card-contacto h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-input input {
+    width: 80%;
+
+}
+
+.contenedor-input textarea {
+    width: 80%;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contenedor-iconos i {
+    color: white;
+    font-size: 2em;
+    margin: 0px 10px;
+}
+.icon-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-twitter:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #c13584;
+    cursor: pointer;
+}
+
+.btn {
+    width: 10em;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+}
